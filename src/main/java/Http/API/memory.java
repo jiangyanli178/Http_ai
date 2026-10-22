@@ -4,8 +4,10 @@ import com.sun.net.httpserver.Headers;
 
 public class memory {
 //    一些关键词
-//  https://xxx.com:443/v3/users?id=1
-//   协议   服务器网址 端口 路径   查询参数
+//  https://xxx.com:443/v3/users?id=1&name=jiangyanli178
+//   协议   服务器网址 端口 路径      查询参数
+
+//    ?前面是url,后面是Query参数.附在URL上的附加说明
 
 //    常用命令
 //    get         查看/获取
@@ -16,7 +18,6 @@ public class memory {
 //        一个请求有请求头与请求体;部分请求没有请求体
 //    请求头:Headers
 //    请求体:Body
-//    备注:Query
 
 //        "服务器回话":状态码 (Status Code)
 //    1xx:信息性 -> 请求已收到,继续处理
